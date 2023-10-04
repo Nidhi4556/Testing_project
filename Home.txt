@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome On Board</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    
+    #header {
+      background-color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: flex-end;
+    }
+    
+    #brand-logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    
+    #sign-up-button,
+    #login-button {
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+    
+    #footer {
+      background-color: #fff;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    #footer-button {
+      margin: 0 10px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    
+    #container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      margin-bottom: 100px; /* to keep content above the footer */
+    }
+    
+    h1 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <div id="brand-logo">amdocs</div>
+    <button id="sign-up-button">Sign Up</button>
+    <button id="login-button">Login</button>
+  </header>
+
+  <div id="container">
+    <h1>Welcome On Board</h1>
+    <!-- Rest of the content goes here -->
+  </div>
+
+  <footer id="footer">
+    <button id="footer-help">Help</button>
+    <button id="footer-about">About</button>
+    <button id="footer-contact">Contact Us</button>
+  </footer>
+</body>
+</html>
